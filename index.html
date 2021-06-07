@@ -1,0 +1,862 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Materialize - Compiled and minified CSS-->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+  <!-- Font Awesome Icon - CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+  <!-- Custom Styles-->
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>Neeraj Sharma | Software Developer</title>
+
+  <!-- Open Graph-->
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="index, follow" />
+</head>
+
+<body>
+  <nav class="hide-on-small-only">
+    <ul class="side-nav fixed section table-of-contents">
+
+      <li class="logo">
+        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
+          class="brand-logo grey-blue-text">
+          <img src="assets/img_1/me.jpg" class="circle img-responsive profile-pic" alt="avatar">
+        </a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        mdi-action-assessment
+        mdi-social-poll
+        mdi-av-equalizer
+        -->
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+      
+      <li class="bold">
+        <!--
+        ICONS:
+        -->
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+
+      <!-- <li class="bold">
+        <a aria-label="Navigate to the Testimonials section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+           class="fa fa-thumbs-up small"></i><span>Testimonials</span></a>
+      </li> -->
+
+      <li class="bold">
+        <!-- mdi-av-web small
+             mdi-av-my-library-books small-->
+        <a aria-label="Navigate to the Testimonials section" href="#testimonials" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-thumb-up small"></i><span>Testimonials</span></a>
+      </li>
+
+      <li class="bold">
+        <!-- 
+        1. mdi-communication-contacts
+        2. mdi-content-mail
+        3. mdi-communication-email
+        -->
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+
+      <li class="bold">
+        <!--
+        ICONS:
+        1. mdi-action-description
+        2. mdi-file-folder
+        3. mdi-file-folder-open
+        4. mdi-file-attachment
+        5. mdi-file-folder-shared
+        -->
+        <!-- <a aria-label="Open Mehul's resume in a new tab" href="#resume" target="_blank"
+          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
+        <a aria-label="Open Mehul's resume in a new tab" href="https://drive.google.com/file/d/1Ii-NIrULm8Yf9tW62mCSsVwaOZnDgmuU/view?usp=sharing" target="_blank"
+        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Nav class 2 -->
+  <nav class="hide-on-large only trigger z-depth-1">
+    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
+      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    <div class="name-title">
+      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Neeraj Sharma</a><span class="black-text">Software Developer</span>
+    </div>
+  </nav>
+
+  <!-- Nav class 3 -->
+  <nav class="hide-on-large only">
+    <ul id="slide-out" class="side-nav">
+      <li class="bold">
+        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-person small"></i><span>About</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Experience section" href="#experience"
+          class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-trending-up small"></i><span>Experience</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
+            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-assessment small"></i><span>Skills</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
+            class="mdi-social-school small"></i><span>Education</span></a>
+      </li>
+s
+      <li class="bold">
+        <a aria-label="Navigate to the Testimonials section" href="#testimonials" class="waves-effect waves-dark teal-text"><i
+            class="mdi-action-thumb-up small"></i><span>Testimonials</span></a>
+      </li>
+
+      <li class="bold">
+        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
+            class="mdi-content-mail small"></i><span>Contact</span></a>
+      </li>
+      <li class="bold">
+        <a aria-label="my Resume in a new tab"
+          href="https://drive.google.com/file/d/1aWiwCiiu_x_-uVJ_aizrpf1rgX6AHTNr/view?usp=sharing" target="_blank"
+          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content-->
+  <main>
+    <!-- First Section: Heading lines and image -->
+    <section id="intro" class="section scrollspy full-height">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="col-md-9">
+          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
+            <div class="caption">
+              <h2>Hi, I'm <span class="teal">Neeraj Sharma.</span></h2>
+              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
+              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
+              <h5> A self-driven passionate programmer with a curious mind who enjoys solving complex and challenging real-world problems.</h5>
+            </div>
+            <div class="social">
+              <a href="https://www.linkedin.com/in/neeraj-sharma-335834171/" target="_blank">
+                <button class="icon-btn linkedin">
+                  <i class="fa fa-linkedin"></i>
+                </button>
+              </a>
+              <a href="https://github.com/nsharma0619" target="_blank">
+                <button class="icon-btn github">
+                  <i class="fa fa-github"></i>
+                </button>
+              </a>
+
+              
+            </div>
+            <div class='buttons'>
+              <a href="#about" class="readme">Read More</a>
+              <a href="#contact" class="contactme">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: About -->
+    <section id="about" class="section scrollspy">
+      <h3 class="page-title white-text teal">About</h3>
+      <div class="container flow-text" style="padding-bottom:8%;">
+        <p>
+          I am a Computer Science Junior at Netaji Subhas University Of Technology, East Delhi Campus. 
+        </p>
+        <p>
+          Detail-oriented Software Developer with professional experience in Web Application Development, Database and ORMs, Machine Learning, 
+          Frontend-Development, and Backend-Development.
+        </p>
+        <p>
+          I am proficient in Python, C++, HTML, CSS, JavaScript and have good knowledge of Data Structures, Databases(postgres, MYSQL), ORMs, Machine Learning, Django and Flask. 
+        </p>
+      </div>
+    </section>
+
+
+    <!-- Third Section: Experience -->
+    <section id="experience" class="section scrollspy">
+      <h3 class="page-title white-text teal">Experience</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://whataftercollege.com/" target="_blank"><img alt="WAC logo"
+                    src="/assets/img/wac-logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://whataftercollege.com/" target="_blank"
+                      class="teal-text hoverline">What After College</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Python/Web Development</div>
+            <ul>
+              <li>
+                What After College is a renowned media startup connecting students, educators & institutions. 
+                It aims to understand & evaluate the industrial demands & train the students to get them job-ready.
+              </li>
+              <li>
+                I am teaching students courses in Python, Machine Learning and Web Development(Front-end Technology).
+              </li>
+              <li>
+                Improved the curriculum of the courses and developing the course content at the moment.
+
+              </li>
+              <li>
+                <b>Tools:</b> Python, Keras, Tensorflow, Scikit-learn, Jupyter, Numpy, Pandas, Matplotlib, HTML, CSS, JavaScript, Bootstrap, Jquery, Git
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>May 2021 - Present </span>
+          </div>
+        </div>
+
+        
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://acemyprep.com/" target="_blank"><img alt="Ace my prep logo"
+                    src="assets/img_1/acemyprep.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://acemyprep.com/" target="_blank"
+                      class="teal-text hoverline">Ace My Prep</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Data Engineer (Web Scraping)</div>
+            <ul>
+              <li>
+                AceMyPrep is an online academy with a mission to make Global Applications Affordable.
+              </li>
+              <li>
+                They provide strategic training by catering to students’ individual skill levels, learning styles.
+              </li>
+              <li>
+                They teach you tips and tricks which have been developed by using AI-driven tools on thousands of previous exam takers’ experiences to help you ace IELTS, TOEFL and Duolingo English Test.
+              </li>
+              <li>
+                Scraped thousands of website using python and Scrapy.
+              </li>
+              <li>
+                Made web-automation for scraping websites using selenium.
+              </li>
+              <li>Generate reports and Excel sheet from the scraped data.</li>
+              <li>
+                <b>Tools:</b> Python, Pandas, Scrapy, Request-library, and Selenium
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Feb 2021 - March 2021 </span>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://leadzap.in/" target="_blank"><img alt="TSF logo"
+                    src="assets/img_1/leadzap.png" class="responsive-img center-block" /></a>
+
+              </div>
+
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://leadzap.in/" target="_blank"
+                      class="teal-text hoverline">Leadzap</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Software developer Intern</div>
+            <ul>
+              <li>
+                Leadzap develop effective sales funnel for business organizations for their business growth by reaching out to their target customers, converting them into potential buyers and further scaling it.
+              </li>
+              <li>
+                Develop a web application for contacting clients with schedule emails and whatsapp.
+              </li>
+              <li>
+                Integrate google sheet with python and use it as database.
+              </li>  
+              <li>
+                <b>Tools:</b> Python, Postgres Sql, flask, Sql-Alchemy, Google App-Script, HTML, CSS, JavaScript, Bootstrap, Jquery.
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Sep 2020 - Jan 2021</span>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <!-- <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.cignex.com" target="_blank"><img alt="Cignex logo"
+                    src="/assets/img/exp-cignex-logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.cignex.com" target="_blank"
+                      class="teal-text hoverline">CIGNEX
+                      Datamatics </a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Project Trainee</div>
+            <ul>
+              <li>
+                Designed a library management system for a local library, where They undertook activities like requirement
+                elicitation, preparing Data Flow
+                and Entity-Relationship diagrams.
+              </li>
+              <li>
+                Delivered a solution for a POC involving Automatic Financial Document Classifier using Natural Language
+                Processing and Support Vector
+                Machines with 96% accuracy on the company’s data.
+              </li>
+              <li>
+                <b>Tools:</b> Python, Scikit-learn, NLTK
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>June 2017 - July 2017 | Ahmedabad, India</span>
+          </div>
+        </div> -->
+
+      </div>
+    </section>
+
+    <!-- Fourth Section: Projects -->
+    <section id="projects" class="section scrollspy">
+      <h3 class="page-title white-text teal">Projects</h3>
+      <div class="container">
+        <div class="row">
+
+          <div class="col s12 m6 l6">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="books" src="assets/img_1/booksharingsystem.jpg" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">The Book Sharing WebApp<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  <span style="font-size: 16px;">
+                  Free Book Sharing website to help students, to share their books, also they can sell 
+                  or purchase used books. I have develop just a medium for seller and purchaser, which is 
+                  free of cost.
+                </span>
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title grey-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li><b>Tech Stack: Python3, Flask, HTML, CSS, JavaScript, PostgreSQL</b> </li>
+                  <li>Contain login system to monitor user.</li>
+                  <li>Fully functional website hosted in heroku.</li>
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit " href="https://pustakaalaya.herokuapp.com/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- ************* -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Fifth Section: Skills -->
+    <section id="skills" class="section scrollspy">
+      <h3 class="page-title white-text teal">Skills</h3>
+      <div class="container">
+        <!-- Languages and Databases -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Languages</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img_1/cpp.png" class="responsive-img" />C++
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img_1/javas.jpg" class="responsive-img" />JavaScript
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />PostgreSQL
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Libraries</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="assets/img_1/jquery.png" class="responsive-img" />Jquery
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Frameworks</h4>
+            <div class="row text-center">
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
+              </div>
+              <!-- <div class="col s4 m2">
+                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Other -->
+        <div class="card">
+          <div class="card-content">
+            <h4 class="brown-text light">Other</h4>
+            <div class="row text-center">
+
+
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
+              </div>
+              <div class="col s4 m2">
+                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
+              </div>
+              <!-- <div class="col s4 m2">
+                <img alt="" src="assets/img_1/firebase.png" class="responsive-img" />Firebase
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section>
+
+    <!-- Seventh Section: Education -->
+    <section id="education" class="section scrollspy">
+      <h3 class="page-title white-text teal">Education</h3>
+      <div class="container">
+
+        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="http://aiactr.ac.in/" target="_blank"><img alt="NSUT logo"
+                    src="assets/img_1/nsut-logo.png" width="100" height="60" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="http://aiactr.ac.in/" target="_blank"
+                      class="teal-text hoverline">Netaji Subhas University Of Technology, East Delhi Campus</a></span>
+                </p>
+              </div>
+            <!-- </div> -->
+              <!-- <div class="role brown-text text-darken-2">Data Science/ML Instructor</div> -->
+              
+            </div>
+            <p class="brown-text">Delhi, India</p>
+            <p>
+              <b>Degree: </b>Bachelor of Technology    
+              <br>
+              <b>Major: </b>Computer Science
+              <br>
+              <b>CGPA: </b>8.1/10 (till 5th Sem)
+            </p>
+
+            <ul>
+              <p>
+                <b>Relevant Courseworks:</b>
+              <ul>
+                <li>Data Structures</li>
+                <li>Object Oriented Programming</li>
+                <li>Database Management Systems</li>    
+                <li>Algorithms Design and Analysis </li> 
+                <li>Web Technology</li>               
+              </ul>
+              </p>
+
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>Aug 2018 - 2022 (Expected) </span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.facebook.com/govtsarvodayacoedvidyalaya/" target="_blank"><img alt="School logo"
+                    src="assets/img_1/school-logo.jpg" width="200" height="200" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.facebook.com/govtsarvodayacoedvidyalaya/" target="_blank"
+                      class="teal-text hoverline">Govt. Sarvodaya Co-Ed Vidyalaya Sec-8, Rohini</a></span>
+                </p>
+              </div>
+            <!-- </div> -->
+              <!-- <div class="role brown-text text-darken-2">Data Science/ML Instructor</div> -->
+              
+            </div>
+            <p class="brown-text">Delhi, India</p>
+            <p>
+              <b>Degree: </b>Senior Secondary (Class 12th)      
+              <br>
+              <b>Stream: </b>Science (PCM)
+              <br>
+              <b>Percentage: </b>87.2%
+            </p>
+            <ul>
+              <li>Scored 92% in Chemistry and 90% in Physics</li>
+            </ul>
+
+          </div>
+          <div class="card-action">
+            <span>2017</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.psmsrschool.com/" target="_blank"><img alt="School logo"
+                    src="assets/img_1/psm.png" width="200" height="200" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.psmsrschool.com/" target="_blank"
+                      class="teal-text hoverline">PSM Public Senior Secondary School</a></span>
+                </p>
+              </div>
+            
+            </div>
+            <p class="brown-text">Delhi, India</p>
+            <p>
+              <b>Degree: </b>Secondary School (Class 10th)      
+              <br>
+              <b>Percentage: </b>85.5%
+            </p>
+            <!-- <ul>
+              <li>Scored 92% in Chemistry and 90% in Physics</li>
+            </ul> -->
+
+          </div>
+          <div class="card-action">
+            <span>2015</span>
+          </div>
+        </div>
+
+        <!-- certifications -->
+        <!-- <div class="card"> -->
+          <!-- <div class="card-content"> -->
+            <h4 class="brown-text light">Certificates</h4>
+            <!-- <div class="row text-left"> -->
+            
+
+              <!-- <h3 class="page-title white-text teal">Certificates</h3> -->
+
+
+              <div class="container">
+                <div class="row">
+                  
+                  <div class="col s12 m6 l6">
+                    <div class="card medium">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img alt="ML Course" src="/assets/img/mooc-machine-learning-coursera-800x500.jpg" style="height: 100%; width: 100%" class="activator" />
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator teal-text hoverline">Machine Learning (Stanford)<i
+                            class="mdi-navigation-more-vert right"></i></span>
+                      </div>
+                      <div class="card-reveal">
+                        <!-- TODO: change this -- only close button -->
+                        <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                        <span class="card-title brown-text"><small>Accomplishments</small><i
+                            class="mdi-navigation-close right"></i></span>
+
+                          <p style="font-size:14px">
+                            This course provides a broad introduction to machine learning, datamining, and 
+                            statistical pattern recognition. Topics include: 
+                            <ul>
+                              <li>Supervised learning 
+                                (parametric/non-parametric algorithms, support vector machines, kernels, neural networks).</li>
+                              
+                              <li>Unsupervised learning (clustering, dimensionality reduction, recommender systems, 
+                                deep learning).</li>
+
+                              <li>Best practices in machine learning (bias/variance theory; innovation 
+                                process in machine learning and AI).</li>
+                            </ul> 
+                          </p>  
+                        <div class="card-action">
+                          <a aria-label="View the Certificate of this course."
+                            href="https://coursera.org/share/53a83c844cd9234733ecd7a344a13cf4" target="_blank"
+                            data-position="top" data-tooltip="View Certificate"
+                            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                            class="fa fa-certificate"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card medium">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img alt="DL Specialization" src="assets/img_1/deeplearning_ai.png" style="height: 100%; width: 100%" class="activator" />
+                      </div>
+                      <div class="card-content">
+                        <span class="card-title activator teal-text hoverline">Neural Networks and Deep Learning<i
+                            class="mdi-navigation-more-vert right"></i></span>
+                      </div>
+                      <div class="card-reveal">
+                        <!-- TODO: change this -- only close button -->
+                        <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                        <span class="card-title brown-text"><small>Accomplishments</small><i
+                            class="mdi-navigation-close right"></i></span>
+                        <p style="font-size:14px">
+                          In this Specialization, I built and trained neural network architectures such as
+                           Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, Transformers, and learnt how to
+                            make them better with strategies such as Dropout, BatchNorm, Xavier/He initialization, and more.
+                            <br>
+                            I studied theoretical concepts and their industry applications using Python and 
+                            TensorFlow and tackle real-world cases such as speech recognition, music synthesis, chatbots, 
+                            machine translation, natural language processing, and more.
+                        </p>
+                        <div class="card-action">
+                          <a aria-label="View the Certificate of this course." href="https://coursera.org/share/701398b7f9949c2bfcdba073b0b3620e"
+                            target="_blank" data-position="top" data-tooltip="View Certificate"
+                            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                              class="fa fa-certificate"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+    </section>
+
+    <section id="testimonials" class="section scrollspy">
+      <h3 class="page-title white-text teal">Testimonials</h3>
+      <div class="container">
+        <div class="card">
+          <div class="card-content">
+            <p>"It was great working with Neeraj, he has a keen interest and amazing knowledge of 
+              Python and Machine Learning with AI. He was Found to be a professional trainer 
+              with high motivation and perfect work ethics. Would happily recommend him to anyone."
+            </p>
+
+          </div>
+          
+          <div class="card-action">
+            <a href="https://www.linkedin.com/in/vedansh-bajaj-b24971a5/" target="_blank">
+              <span style="color:#004d40; font-size:16px">
+                - Vedansh Bajaj (Business Development Manager at What After College)
+              </span>
+            </a>
+          </div>
+        </div>
+
+        
+
+
+      </div>
+    </section>
+ 
+
+    <!-- Eight Section: Contact -->
+    <section id="contact" class="section scrollspy full-height">
+      <h3 class="page-title white-text teal">Contact</h3>
+      <div class="container">
+        <p>
+          <a aria-label="Email Mehul" href="mailto:nsharma0619@gmail.com" target="_blank" data-position="top"
+            data-tooltip="Email Mehul" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-envelope"></i><a aria-label="Email Mehul" href="mailto:nsharma0619@gmail.com"
+              class="hoverline">nsharma0619@gmail.com</a></a>
+        </p>
+        <p>
+          <a aria-label="View Mehul on GitHub" href="https://github.com/nsharma0619" target="_blank"
+            data-position="top" data-tooltip="View Mehul on GitHub"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
+              aria-label="Mehul on Github" href="https://github.com/nsharma0619" class="hoverline"
+              target="_blank">github.com/nsharma0619</a></a>
+        </p>
+        <p>
+          <a aria-label="View Mehul on LinkedIn" href="https://www.linkedin.com/in/neeraj-sharma-335834171/" target="_blank"
+            data-position="top" data-tooltip="View Mehul on LinkedIn"
+            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+              class="fa fa-linkedin"></i><a aria-label="Mehul on LinkedIn" href="https://www.linkedin.com/in/neeraj-sharma-335834171/"
+              class="hoverline" target="_blank">linkedin.com/in/neeraj-sharma-335834171/</a></a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- typed.js -->
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Self-Motivated Learner", "Backend Developer", "Software Engineer", "ML Enthusiast"],
+      loop: true,
+      typeSpeed: 80,
+      backSpeed: 40
+    });
+  </script>
+
+
+  <!-- jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+  <!-- Materialize - Compiled and minified JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+  <script>
+    // Materialize - Initializers
+    $(document).ready(function () {
+      $(".scrollspy").scrollSpy()
+      // Initialize collapse button
+      $(".button-collapse").sideNav({
+        menuWidth: 190, // Default is 240
+        edge: "left", // Choose the horizontal origin
+        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+      })
+    })
+  </script>
+</body>
+
+</html>
